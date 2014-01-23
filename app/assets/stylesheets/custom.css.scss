@@ -1,0 +1,78 @@
+@import "bootstrap";
+
+td  {
+	padding: 4px;
+}
+
+body { padding-top: 60px; }
+
+.navbar-simple .brand {
+ 	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #ccc;
+}
+.navbar-simple .navbar-inner {
+	background: #fff;
+	filter: none !important;
+	box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.navbar-simple .navbar-inner .nav {
+	float: left;
+}
+.navbar-simple .navbar-inner .nav li a {
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: #777;
+	font-size: 13px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: 600;
+}
+.navbar-simple .navbar-inner .nav li a:hover {
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: #bf3604;
+}		
+.navbar-simple .navbar-inner .nav li.active a {
+	color: #bf3604;
+}
+
+.brand_edit {
+	text-align: left;
+}
+
+.meta {
+	margin-bottom: 5px;
+}
+
+.status {
+	border-bottom: solid 1px #ccc;
+	padding: 5px 0;
+}
+
+.status p {
+	padding: 1px 0
+}
+
+.status.hover {
+	background: #FAFAFA;
+}
+
+.status .admin {
+	display: none;
+}
+
+.status.hover .admin {
+	display: inline;
+}
+
+.pad {
+	margin-bottom: 5px;
+}
